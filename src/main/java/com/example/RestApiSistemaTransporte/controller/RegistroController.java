@@ -14,7 +14,7 @@ public class RegistroController {
     @Autowired
     IRegistro registro;
 
-    @GetMapping("/Registros")
+    @GetMapping("/ver")
     public ResponseEntity verRegistro(){
 
         return new ResponseEntity(registro.obtenerRegistro() , HttpStatus.FOUND);

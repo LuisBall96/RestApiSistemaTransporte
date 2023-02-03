@@ -2,10 +2,12 @@ package com.example.RestApiSistemaTransporte.repository;
 
 import com.example.RestApiSistemaTransporte.repository.model.Pasajero;
 import com.example.RestApiSistemaTransporte.repository.model.Persona;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class PasajeroRepository {
 
     private List <Persona> pasajeros;
